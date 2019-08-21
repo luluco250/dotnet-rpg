@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace RPG
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+class Program {
+    static void Main(string[] args) {
+        var actor = new Actor{
+            name = "Lucas",
+            health = 125,
+            stamina = 125,
+            mana = 0
+        };
+
+        Console.WriteLine(actor);
     }
 }
